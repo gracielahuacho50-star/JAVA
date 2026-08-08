@@ -13,6 +13,17 @@ public class main {
         listaPersonajes.add(new Mago(id));
         System.out.println("Mago agregado correctamente");
     }
-
+ public void mostrarPersonajes(){
+    if (listaPersonajes.isEmpty()){
+         System.out.println("No hay personajes registrados");
+          return;
+    }
+    for (Personajes Personajes : ListaPersonajes){
+        personaje.mostrarInfo;
+        personaje.realizarAccion;
+        System.out.println("====================================");
+    }
+    
+        
 
 }
