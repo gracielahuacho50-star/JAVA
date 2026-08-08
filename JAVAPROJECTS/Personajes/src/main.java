@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 public class main {
-    private ArrayList<Personajes> listaPersonajes;
+   private ArrayList<Personajes> listaPersonajes;
 
     public main(){
-        listaPersonajes = new Arraylist<>();
+         listaPersonajes = new ArrayList<>();
     }
     public void agregarGuerrero(int id){
         listaPersonajes.add(new Guerrero(id));
@@ -19,11 +19,16 @@ public class main {
           return;
     }
     for (Personajes Personajes : ListaPersonajes){
-        personaje.mostrarInfo;
-        personaje.realizarAccion;
+        Personajes.mostrarInfo();
+        Personajes.realizarAccion();
         System.out.println("====================================");
     }
-    
+    public Personajes buscarPersonajes(int id) {
+        for (Personaje personaje: listaPersonajes){
+            if (Personajes)
+        }
+    }
         
 
+    }
 }
